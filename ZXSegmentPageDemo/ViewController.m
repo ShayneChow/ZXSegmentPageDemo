@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ZXSemgentViewController.h"
 
 @interface ViewController ()
 
@@ -22,6 +23,11 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)goToSegmentPageVC {
+    ZXSemgentViewController *demoVC = [[ZXSemgentViewController alloc] init];
+    [self.navigationController pushViewController:demoVC animated:YES];
 }
 
 @end

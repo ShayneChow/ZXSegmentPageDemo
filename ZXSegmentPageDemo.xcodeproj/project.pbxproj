@@ -15,6 +15,15 @@
 		F02630541C803A6300E83B17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F02630521C803A6300E83B17 /* LaunchScreen.storyboard */; };
 		F026305F1C803A6300E83B17 /* ZXSegmentPageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F026305E1C803A6300E83B17 /* ZXSegmentPageDemoTests.m */; };
 		F026306A1C803A6300E83B17 /* ZXSegmentPageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F02630691C803A6300E83B17 /* ZXSegmentPageDemoUITests.m */; };
+		F02630801C803B6B00E83B17 /* ARSegmentPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = F026307A1C803B6B00E83B17 /* ARSegmentPageController.m */; };
+		F02630811C803B6B00E83B17 /* ARSegmentPageHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = F026307D1C803B6B00E83B17 /* ARSegmentPageHeader.m */; };
+		F02630821C803B6B00E83B17 /* ARSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = F026307F1C803B6B00E83B17 /* ARSegmentView.m */; };
+		F02630851C803C3900E83B17 /* ZXSemgentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F02630841C803C3900E83B17 /* ZXSemgentViewController.m */; };
+		F02630881C803E1100E83B17 /* ZXHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F02630871C803E1100E83B17 /* ZXHeaderView.m */; };
+		F026308A1C803E3300E83B17 /* ZXHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F02630891C803E3300E83B17 /* ZXHeaderView.xib */; };
+		F026308D1C80401700E83B17 /* ZXOrderListController.m in Sources */ = {isa = PBXBuildFile; fileRef = F026308C1C80401700E83B17 /* ZXOrderListController.m */; };
+		F02630911C80535500E83B17 /* ZXOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F026308F1C80535500E83B17 /* ZXOrderCell.m */; };
+		F02630921C80535500E83B17 /* ZXOrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F02630901C80535500E83B17 /* ZXOrderCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,24 @@
 		F02630651C803A6300E83B17 /* ZXSegmentPageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXSegmentPageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F02630691C803A6300E83B17 /* ZXSegmentPageDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXSegmentPageDemoUITests.m; sourceTree = "<group>"; };
 		F026306B1C803A6300E83B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F02630781C803B6B00E83B17 /* ARSegmentControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARSegmentControllerDelegate.h; sourceTree = "<group>"; };
+		F02630791C803B6B00E83B17 /* ARSegmentPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARSegmentPageController.h; sourceTree = "<group>"; };
+		F026307A1C803B6B00E83B17 /* ARSegmentPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARSegmentPageController.m; sourceTree = "<group>"; };
+		F026307B1C803B6B00E83B17 /* ARSegmentPageControllerHeaderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARSegmentPageControllerHeaderProtocol.h; sourceTree = "<group>"; };
+		F026307C1C803B6B00E83B17 /* ARSegmentPageHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARSegmentPageHeader.h; sourceTree = "<group>"; };
+		F026307D1C803B6B00E83B17 /* ARSegmentPageHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARSegmentPageHeader.m; sourceTree = "<group>"; };
+		F026307E1C803B6B00E83B17 /* ARSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARSegmentView.h; sourceTree = "<group>"; };
+		F026307F1C803B6B00E83B17 /* ARSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARSegmentView.m; sourceTree = "<group>"; };
+		F02630831C803C3900E83B17 /* ZXSemgentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXSemgentViewController.h; sourceTree = "<group>"; };
+		F02630841C803C3900E83B17 /* ZXSemgentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXSemgentViewController.m; sourceTree = "<group>"; };
+		F02630861C803E1100E83B17 /* ZXHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXHeaderView.h; sourceTree = "<group>"; };
+		F02630871C803E1100E83B17 /* ZXHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXHeaderView.m; sourceTree = "<group>"; };
+		F02630891C803E3300E83B17 /* ZXHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZXHeaderView.xib; sourceTree = "<group>"; };
+		F026308B1C80401700E83B17 /* ZXOrderListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXOrderListController.h; sourceTree = "<group>"; };
+		F026308C1C80401700E83B17 /* ZXOrderListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXOrderListController.m; sourceTree = "<group>"; };
+		F026308E1C80535500E83B17 /* ZXOrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXOrderCell.h; sourceTree = "<group>"; };
+		F026308F1C80535500E83B17 /* ZXOrderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXOrderCell.m; sourceTree = "<group>"; };
+		F02630901C80535500E83B17 /* ZXOrderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZXOrderCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +128,21 @@
 		F02630431C803A6300E83B17 /* ZXSegmentPageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F02630771C803B6B00E83B17 /* ARSegmentPageController */,
 				F02630471C803A6300E83B17 /* AppDelegate.h */,
 				F02630481C803A6300E83B17 /* AppDelegate.m */,
 				F026304A1C803A6300E83B17 /* ViewController.h */,
 				F026304B1C803A6300E83B17 /* ViewController.m */,
+				F02630831C803C3900E83B17 /* ZXSemgentViewController.h */,
+				F02630841C803C3900E83B17 /* ZXSemgentViewController.m */,
+				F02630861C803E1100E83B17 /* ZXHeaderView.h */,
+				F02630871C803E1100E83B17 /* ZXHeaderView.m */,
+				F02630891C803E3300E83B17 /* ZXHeaderView.xib */,
+				F026308B1C80401700E83B17 /* ZXOrderListController.h */,
+				F026308C1C80401700E83B17 /* ZXOrderListController.m */,
+				F026308E1C80535500E83B17 /* ZXOrderCell.h */,
+				F026308F1C80535500E83B17 /* ZXOrderCell.m */,
+				F02630901C80535500E83B17 /* ZXOrderCell.xib */,
 				F026304D1C803A6300E83B17 /* Main.storyboard */,
 				F02630501C803A6300E83B17 /* Assets.xcassets */,
 				F02630521C803A6300E83B17 /* LaunchScreen.storyboard */,
@@ -138,6 +176,21 @@
 				F026306B1C803A6300E83B17 /* Info.plist */,
 			);
 			path = ZXSegmentPageDemoUITests;
+			sourceTree = "<group>";
+		};
+		F02630771C803B6B00E83B17 /* ARSegmentPageController */ = {
+			isa = PBXGroup;
+			children = (
+				F02630781C803B6B00E83B17 /* ARSegmentControllerDelegate.h */,
+				F02630791C803B6B00E83B17 /* ARSegmentPageController.h */,
+				F026307A1C803B6B00E83B17 /* ARSegmentPageController.m */,
+				F026307B1C803B6B00E83B17 /* ARSegmentPageControllerHeaderProtocol.h */,
+				F026307C1C803B6B00E83B17 /* ARSegmentPageHeader.h */,
+				F026307D1C803B6B00E83B17 /* ARSegmentPageHeader.m */,
+				F026307E1C803B6B00E83B17 /* ARSegmentView.h */,
+				F026307F1C803B6B00E83B17 /* ARSegmentView.m */,
+			);
+			path = ARSegmentPageController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,7 +298,9 @@
 			files = (
 				F02630541C803A6300E83B17 /* LaunchScreen.storyboard in Resources */,
 				F02630511C803A6300E83B17 /* Assets.xcassets in Resources */,
+				F02630921C80535500E83B17 /* ZXOrderCell.xib in Resources */,
 				F026304F1C803A6300E83B17 /* Main.storyboard in Resources */,
+				F026308A1C803E3300E83B17 /* ZXHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +326,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				F026304C1C803A6300E83B17 /* ViewController.m in Sources */,
+				F026308D1C80401700E83B17 /* ZXOrderListController.m in Sources */,
+				F02630851C803C3900E83B17 /* ZXSemgentViewController.m in Sources */,
+				F02630821C803B6B00E83B17 /* ARSegmentView.m in Sources */,
 				F02630491C803A6300E83B17 /* AppDelegate.m in Sources */,
 				F02630461C803A6300E83B17 /* main.m in Sources */,
+				F02630801C803B6B00E83B17 /* ARSegmentPageController.m in Sources */,
+				F02630811C803B6B00E83B17 /* ARSegmentPageHeader.m in Sources */,
+				F02630911C80535500E83B17 /* ZXOrderCell.m in Sources */,
+				F02630881C803E1100E83B17 /* ZXHeaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
