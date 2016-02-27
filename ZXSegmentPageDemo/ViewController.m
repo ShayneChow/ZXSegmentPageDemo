@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "ZXSemgentViewController.h"
+#import "ZXTabBarController.h"
 
 @interface ViewController ()
 
@@ -25,9 +26,16 @@
     // Dispose of any resources that can be recreated.
 }
 
+// 方案1
 - (IBAction)goToSegmentPageVC {
     ZXSemgentViewController *demoVC = [[ZXSemgentViewController alloc] init];
     [self.navigationController pushViewController:demoVC animated:YES];
+}
+
+// 方案2
+- (IBAction)goToTabBarVC {
+    ZXTabBarController *tabBarVC = [[ZXTabBarController alloc] init];
+    [self.navigationController pushViewController:tabBarVC animated:YES];
 }
 
 @end

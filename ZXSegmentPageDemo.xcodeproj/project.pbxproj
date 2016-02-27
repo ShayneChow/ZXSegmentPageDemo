@@ -24,6 +24,9 @@
 		F026308D1C80401700E83B17 /* ZXOrderListController.m in Sources */ = {isa = PBXBuildFile; fileRef = F026308C1C80401700E83B17 /* ZXOrderListController.m */; };
 		F02630911C80535500E83B17 /* ZXOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F026308F1C80535500E83B17 /* ZXOrderCell.m */; };
 		F02630921C80535500E83B17 /* ZXOrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F02630901C80535500E83B17 /* ZXOrderCell.xib */; };
+		F02630951C814BC300E83B17 /* ZXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F02630941C814BC300E83B17 /* ZXTabBarController.m */; };
+		F02630991C814C4C00E83B17 /* ZXOrderTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = F02630981C814C4C00E83B17 /* ZXOrderTabBarView.m */; };
+		F026309C1C814CBB00E83B17 /* ZXUIViewTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F026309B1C814CBB00E83B17 /* ZXUIViewTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +81,12 @@
 		F026308E1C80535500E83B17 /* ZXOrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXOrderCell.h; sourceTree = "<group>"; };
 		F026308F1C80535500E83B17 /* ZXOrderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXOrderCell.m; sourceTree = "<group>"; };
 		F02630901C80535500E83B17 /* ZXOrderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZXOrderCell.xib; sourceTree = "<group>"; };
+		F02630931C814BC300E83B17 /* ZXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXTabBarController.h; sourceTree = "<group>"; };
+		F02630941C814BC300E83B17 /* ZXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXTabBarController.m; sourceTree = "<group>"; };
+		F02630971C814C4C00E83B17 /* ZXOrderTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXOrderTabBarView.h; sourceTree = "<group>"; };
+		F02630981C814C4C00E83B17 /* ZXOrderTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXOrderTabBarView.m; sourceTree = "<group>"; };
+		F026309A1C814CBB00E83B17 /* ZXUIViewTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXUIViewTool.h; sourceTree = "<group>"; };
+		F026309B1C814CBB00E83B17 /* ZXUIViewTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXUIViewTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,8 +142,12 @@
 				F02630481C803A6300E83B17 /* AppDelegate.m */,
 				F026304A1C803A6300E83B17 /* ViewController.h */,
 				F026304B1C803A6300E83B17 /* ViewController.m */,
+				F026304D1C803A6300E83B17 /* Main.storyboard */,
 				F02630831C803C3900E83B17 /* ZXSemgentViewController.h */,
 				F02630841C803C3900E83B17 /* ZXSemgentViewController.m */,
+				F02630931C814BC300E83B17 /* ZXTabBarController.h */,
+				F02630941C814BC300E83B17 /* ZXTabBarController.m */,
+				F02630961C814C1800E83B17 /* ZXOrderTabBar */,
 				F02630861C803E1100E83B17 /* ZXHeaderView.h */,
 				F02630871C803E1100E83B17 /* ZXHeaderView.m */,
 				F02630891C803E3300E83B17 /* ZXHeaderView.xib */,
@@ -143,7 +156,6 @@
 				F026308E1C80535500E83B17 /* ZXOrderCell.h */,
 				F026308F1C80535500E83B17 /* ZXOrderCell.m */,
 				F02630901C80535500E83B17 /* ZXOrderCell.xib */,
-				F026304D1C803A6300E83B17 /* Main.storyboard */,
 				F02630501C803A6300E83B17 /* Assets.xcassets */,
 				F02630521C803A6300E83B17 /* LaunchScreen.storyboard */,
 				F02630551C803A6300E83B17 /* Info.plist */,
@@ -191,6 +203,17 @@
 				F026307F1C803B6B00E83B17 /* ARSegmentView.m */,
 			);
 			path = ARSegmentPageController;
+			sourceTree = "<group>";
+		};
+		F02630961C814C1800E83B17 /* ZXOrderTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				F02630971C814C4C00E83B17 /* ZXOrderTabBarView.h */,
+				F02630981C814C4C00E83B17 /* ZXOrderTabBarView.m */,
+				F026309A1C814CBB00E83B17 /* ZXUIViewTool.h */,
+				F026309B1C814CBB00E83B17 /* ZXUIViewTool.m */,
+			);
+			path = ZXOrderTabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,11 +350,14 @@
 			files = (
 				F026304C1C803A6300E83B17 /* ViewController.m in Sources */,
 				F026308D1C80401700E83B17 /* ZXOrderListController.m in Sources */,
+				F026309C1C814CBB00E83B17 /* ZXUIViewTool.m in Sources */,
 				F02630851C803C3900E83B17 /* ZXSemgentViewController.m in Sources */,
 				F02630821C803B6B00E83B17 /* ARSegmentView.m in Sources */,
 				F02630491C803A6300E83B17 /* AppDelegate.m in Sources */,
 				F02630461C803A6300E83B17 /* main.m in Sources */,
 				F02630801C803B6B00E83B17 /* ARSegmentPageController.m in Sources */,
+				F02630991C814C4C00E83B17 /* ZXOrderTabBarView.m in Sources */,
+				F02630951C814BC300E83B17 /* ZXTabBarController.m in Sources */,
 				F02630811C803B6B00E83B17 /* ARSegmentPageHeader.m in Sources */,
 				F02630911C80535500E83B17 /* ZXOrderCell.m in Sources */,
 				F02630881C803E1100E83B17 /* ZXHeaderView.m in Sources */,

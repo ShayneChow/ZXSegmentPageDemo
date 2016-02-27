@@ -11,7 +11,7 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="375" height="119.5"/>
+                <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yy_bookingdetail_card_bkg_press01" translatesAutoresizingMaskIntoConstraints="NO" id="YIo-1y-Rp3">
@@ -50,6 +50,9 @@
                             <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         </state>
                     </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="JDQuickerOrderSucess" translatesAutoresizingMaskIntoConstraints="NO" id="Wg2-rc-Uye">
+                        <rect key="frame" x="273" y="11" width="62" height="62"/>
+                    </imageView>
                 </subviews>
                 <constraints>
                     <constraint firstItem="YIo-1y-Rp3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="Ag3-aF-ExK"/>
@@ -58,10 +61,15 @@
                     <constraint firstAttribute="bottom" secondItem="YIo-1y-Rp3" secondAttribute="bottom" constant="5" id="cEQ-FZ-iSc"/>
                 </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="goCheckButton" destination="7va-3P-NRy" id="nlq-K2-BTv"/>
+                <outlet property="haveDoneIconView" destination="Wg2-rc-Uye" id="rC7-Rh-0qg"/>
+            </connections>
             <point key="canvasLocation" x="462.5" y="471"/>
         </tableViewCell>
     </objects>
     <resources>
+        <image name="JDQuickerOrderSucess" width="108" height="108"/>
         <image name="guess_fengmi" width="80" height="80"/>
         <image name="yy_bookingdetail_card_bkg_press01" width="300" height="118"/>
     </resources>

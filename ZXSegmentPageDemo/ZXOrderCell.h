@@ -10,4 +10,7 @@
 
 @interface ZXOrderCell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UIImageView *haveDoneIconView;
+@property (weak, nonatomic) IBOutlet UIButton *goCheckButton;
+
 @end
