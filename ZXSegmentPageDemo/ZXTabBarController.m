@@ -132,7 +132,7 @@ static NSString * const cellID = @"ZXOrderCell";
     return 120.0;
 }
 
-#pragma mark - MyOrderTopTabBarDelegate(顶部标题栏delegate)
+#pragma mark - ZXOrderTabBarViewDelegate
 - (void)tabBar:(ZXOrderTabBarView *)tabBar didSelectIndex:(NSInteger)index {
     NSLog(@"点击了 －－－ %ld",index);
     if (index == 0) {
